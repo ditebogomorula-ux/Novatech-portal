@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Submit a Ticket — NovaTech Portal</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header small">
+      <div class="container">
+        <a class="brand" href="/index.html">
+          <img src="/assets/logo.svg" alt="NovaTech Galaxy logo" class="logo" />
+          <span class="brand-text">Submit a Ticket</span>
+        </a>
+        <nav class="main-nav">
+          <a href="/index.html">Home</a>
+          <a href="/submit-ticket.html">Submit a Ticket</a>
+          <a href="/knowledge-base.html">Knowledge Base</a>
+          <a href="/team.html">Team</a>
+          <a href="/dashboard.html">Dashboard</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Submit a Ticket</h1>
+      <p>Submit requests using our Microsoft Form. The form collects required fields (Incident ID, Request Category, Priority, Short description, contact info). Expect an auto-acknowledgement email as described in the project brief.</p>
+
+      <section class="form-embed">
+        <h2>Microsoft Form</h2>
+        <p>If the embedded form below does not load, open it in a new tab: <a href="https://forms.cloud.microsoft/r/m4GdEsTkau?origin=lprLink" target="_blank" rel="noopener">Open the ticket form (Microsoft Forms)</a></p>
+        <iframe src="https://forms.cloud.microsoft/r/m4GdEsTkau?origin=lprLink" width="100%" height="800" style="border:1px solid #ddd;">This form may not display in your browser.</iframe>
+      </section>
+
+      <section>
+        <h2>Assigned Technician guidance</h2>
+        <p>We suggest the following technician(s) based on the request category. The embedded Microsoft Form captures the selected Assigned Technician if the form author included that question. If not, please include the recommended technician name in the ticket description.</p>
+
+        <table class="tech-table">
+          <thead>
+            <tr><th>Request Category</th><th>Recommended Technician(s)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Network</td><td>Ditebogo Morula (Network support technician)</td></tr>
+            <tr><td>Hardware</td><td>Jaden Maphutha (Help Desk Analyst)</td></tr>
+            <tr><td>Software / Applications</td><td>Itumleng Khotseng (Data Analysis) / Jaden Maphutha</td></tr>
+            <tr><td>Account &amp; Access</td><td>Tanganedzani Manyaga (Documentation Officer) / Jaden Maphutha</td></tr>
+            <tr><td>Other / Escalation</td><td>IT Team (use the escalation SOP)</td></tr>
+          </tbody>
+        </table>
+
+        <p class="muted">Notes: For coursework/demo purposes the form is embedded from Microsoft Forms (no backend code in this static site). Submissions are stored in your Microsoft Forms responses workbook if you own the form.</p>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p><a href="/index.html">Back to Home</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
