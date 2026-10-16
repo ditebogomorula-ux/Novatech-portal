@@ -2,57 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NovaTech Service Portal</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>NovaTech Portal</title>
+    <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <a class="brand" href="/index.html">
-          <img src="/assets/logo.svg" alt="NovaTech Galaxy logo" class="logo" />
-          <span class="brand-text">NovaTech Service Portal</span>
+      <div class="container nav-row">
+        <a class="brand" href="/">
+          <img id="logo" src="/assets/novatech-badge.svg" alt="Novatech Galaxy logo">
         </a>
         <nav class="main-nav">
-          <a href="/index.html">Home</a>
-          <a href="/submit-ticket.html">Submit a Ticket</a>
+          <a href="/">Home</a>
+          <a href="/submit-ticket.html">Submit Ticket</a>
           <a href="/knowledge-base.html">Knowledge Base</a>
           <a href="/team.html">Team</a>
           <a href="/dashboard.html">Dashboard</a>
         </nav>
+        <button id="menuToggle" class="menu-toggle" aria-label="Open navigation">☰</button>
       </div>
     </header>
 
-    <main class="container">
+    <main>
       <section class="hero">
-        <h1>Welcome to NovaTech Galaxy — Service Operations Portal</h1>
-        <p class="lead">A simulated internal service portal where staff can log support tickets, find troubleshooting articles, and view live dashboard data.</p>
-        <p>Use the navigation above to submit a ticket, view the knowledge base, meet the team, or open the dashboard.</p>
+        <div class="container">
+          <h1>NovaTech Service Operations Portal</h1>
+          <p class="lead">A centralised place to log support tickets, download forms, view policies, and monitor performance data.</p>
+          <p><a class="btn" href="/submit-ticket.html">Submit a Ticket</a> <a class="btn ghost" href="/knowledge-base.html">View Knowledge Base</a></p>
+        </div>
       </section>
 
-      <section>
-        <h2>Purpose &amp; Vision</h2>
-        <p>
-          This portal is a centralised space for NovaTech staff to request IT support, download forms, read policies, and monitor support performance. The site follows the project brief: consistent colours (white, blue, grey), mobile-friendly layout, and clear navigation.
-        </p>
-      </section>
-
-      <section>
-        <h2>Quick links</h2>
-        <ul class="links">
-          <li><a href="/submit-ticket.html">Submit a Ticket (Microsoft Form)</a></li>
-          <li><a href="/knowledge-base.html">Knowledge Base & Downloads</a></li>
-          <li><a href="/team.html">Team & Contacts</a></li>
-          <li><a href="/dashboard.html">Dashboard (Asset register & ticket stats)</a></li>
-        </ul>
+      <section class="features container">
+        <article>
+          <h2>Purpose</h2>
+          <p>To simulate NovaTech's internal Service Portal: users can log tickets, download forms, and track status. This static site is responsive and easy to edit.</p>
+        </article>
+        <article>
+          <h2>How to use</h2>
+          <ol>
+            <li>Go to Submit Ticket to log an issue.</li>
+            <li>Visit Knowledge Base for FAQs and downloadable forms.</li>
+            <li>Use Dashboard to review asset and ticket stats.</li>
+          </ol>
+        </article>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container">
-        <p>NovaTech Galaxy (Pty) Ltd — simulated portal • Built for coursework</p>
-        <p>Repository: <a href="https://github.com/ditebogomorula-ux/Novatech-portal">ditebogomorula-ux/Novatech-portal</a></p>
+        <p>&copy; NovaTech Galaxy (Pty) Ltd — simulated portal</p>
       </div>
     </footer>
+
+  <script>
+    // Mobile nav toggle
+    const btn = document.getElementById('menuToggle');
+    btn.addEventListener('click', () => {
+      document.body.classList.toggle('nav-open');
+    });
+  </script>
   </body>
 </html>
