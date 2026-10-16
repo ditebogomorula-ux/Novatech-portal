@@ -1,71 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Novatech Galaxy (Pty) Ltd logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Novatech Galaxy logo">
   <defs>
     <style>
       .navy { fill: #0b2b56; }
       .blue { fill: #1d7fe8; }
       .light { fill: #dfeefc; }
-      .thin { fill: none; stroke: #0b2b56; stroke-width: 7; }
-      .ring { fill: none; stroke: #0b2b56; stroke-width: 18; }
-      .small { font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 2px; }
-      .mid { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
       .tag { font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 1.5px; }
     </style>
   </defs>
-
   <circle cx="600" cy="600" r="510" fill="#ffffff" stroke="#0b2b56" stroke-width="18"/>
   <circle cx="600" cy="600" r="468" fill="#ffffff" stroke="#0b2b56" stroke-width="8"/>
   <circle cx="600" cy="600" r="430" fill="#ffffff" stroke="#1d7fe8" stroke-width="8"/>
-
   <path id="topArc" d="M 170,600 A 430,430 0 0 1 1030,600" fill="none"/>
   <path id="bottomArc" d="M 170,600 A 430,430 0 0 0 1030,600" fill="none"/>
-
-  <text class="small" font-size="72" fill="#0b2b56" textLength="980" lengthAdjust="spacing">
+  <text class="tag" font-size="72" fill="#0b2b56" textLength="980" lengthAdjust="spacing">
     <textPath href="#topArc" startOffset="50%" text-anchor="middle">NOVATECH GALAXY (PTY) LTD</textPath>
   </text>
-
-  <text class="small" font-size="72" fill="#0b2b56" textLength="980" lengthAdjust="spacing">
+  <text class="tag" font-size="72" fill="#0b2b56" textLength="980" lengthAdjust="spacing">
     <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">VERIFIED PARTNERSHIP</textPath>
   </text>
-
   <g>
     <path d="M 246 518 C 380 470, 820 440, 955 550" fill="none" stroke="#1d7fe8" stroke-width="22" stroke-linecap="round"/>
     <path d="M 260 560 C 365 540, 820 515, 930 600" fill="none" stroke="#0b2b56" stroke-width="8" stroke-linecap="round"/>
   </g>
-
   <g transform="translate(600 560)">
     <text x="0" y="84" text-anchor="middle" font-size="310" font-weight="700" font-family="Arial, Helvetica, sans-serif" fill="#0b2b56">N</text>
-    <g transform="translate(140 0)">
-      <path d="M -30 0 L 30 0 L 30 70 L -30 70 Z" fill="#0b2b56" opacity="0.0"/>
-    </g>
   </g>
-
   <g>
     <polygon points="280,500 310,548 362,550 322,583 335,635 280,606 225,635 238,583 198,550 250,548" fill="#0b2b56"/>
     <polygon points="920,500 950,548 1002,550 962,583 975,635 920,606 865,635 878,583 838,550 890,548" fill="#0b2b56"/>
     <polygon points="280,500 310,548 362,550 322,583 335,635 280,606 225,635 238,583 198,550 250,548" fill="#1d7fe8" opacity="0.9"/>
     <polygon points="920,500 950,548 1002,550 962,583 975,635 920,606 865,635 878,583 838,550 890,548" fill="#1d7fe8" opacity="0.9"/>
   </g>
-
   <g fill="#0b2b56" opacity="0.9">
     <circle cx="485" cy="675" r="6"/>
     <circle cx="540" cy="690" r="5"/>
     <circle cx="660" cy="690" r="5"/>
     <circle cx="715" cy="678" r="6"/>
   </g>
-
   <g>
     <line x1="330" y1="745" x2="870" y2="745" stroke="#0b2b56" stroke-width="5"/>
     <line x1="350" y1="770" x2="850" y2="770" stroke="#0b2b56" stroke-width="5"/>
     <text x="600" y="715" text-anchor="middle" class="tag" font-size="44" fill="#0b2b56">INNOVATE • CONNECT • ELEVATE</text>
-  </g>
-
-  <g transform="translate(0,0)">
-    <circle cx="392" cy="600" r="10" fill="#0b2b56"/>
-    <circle cx="770" cy="600" r="10" fill="#0b2b56"/>
-  </g>
-
-  <g fill="#0b2b56" opacity="0.7">
-    <path d="M 132 585 L 176 585 L 154 552 Z" transform="rotate(-25 154 585)"/>
-    <path d="M 1068 585 L 1112 585 L 1090 552 Z" transform="rotate(25 1090 585)"/>
   </g>
 </svg>

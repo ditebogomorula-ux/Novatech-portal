@@ -14,7 +14,7 @@ body{font-family:Inter, Arial, Helvetica, sans-serif;margin:0;color:var(--navy);
 .main-nav{margin-left:auto;display:flex;gap:1rem}
 .main-nav a{color:var(--navy);text-decoration:none;padding:0.6rem 0.4rem}
 .menu-toggle{display:none;background:none;border:0;font-size:20px}
-.hero{padding:3rem 0;background:linear-gradient(180deg,#f8fbff, #fff)}
+.hero{padding:3rem 0;background:linear-gradient(180deg,#f7fbff,#fff)}
 .hero h1{margin:0 0 0.5rem}
 .lead{color:var(--muted)}
 .btn{background:var(--blue);color:white;padding:0.6rem 1rem;border-radius:6px;text-decoration:none}
@@ -29,13 +29,11 @@ body{font-family:Inter, Arial, Helvetica, sans-serif;margin:0;color:var(--navy);
 .data-table{width:100%;border-collapse:collapse}
 .data-table th,.data-table td{padding:0.5rem;border:1px solid #eee;text-align:left}
 .site-footer{border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
-
-/* Responsive */
 @media (max-width:768px){
   .main-nav{display:none}
   .menu-toggle{display:block;margin-left:auto}
   body.nav-open .main-nav{display:flex;flex-direction:column;position:absolute;top:72px;right:0;background:#fff;padding:1rem;border-left:1px solid #eee}
-  .brand img#logo{height:48px}
+  .brand img#logo{height:52px}
   .features{grid-template-columns:1fr}
   .team-grid{grid-template-columns:repeat(2,1fr)}
 }
