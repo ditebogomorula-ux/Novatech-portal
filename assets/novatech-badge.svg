@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img" aria-label="Novatech Galaxy verified partnership badge">
+  <defs>
+    <style>
+      .navy{ fill:#0b2b56; }
+      .blue{ fill:#1e90ff; }
+      .light{ fill:#cfeefd; }
+      .outline{ fill:none; stroke:#0b2b56; stroke-width:18; }
+      .thin{ fill:none; stroke:#0b2b56; stroke-width:6; }
+      .seal-text{ font-family: Arial, Helvetica, sans-serif; font-weight:700; font-size:54px; fill:#0b2b56; }
+      .monogram{ font-family: Arial, Helvetica, sans-serif; font-weight:800; font-size:300px; }
+      .tag{ font-family: Arial, Helvetica, sans-serif; font-size:32px; fill:#0b2b56; }
+    </style>
+    <path id="outerPath" d="M600,110 A490,490 0 1,1 599.9,110 Z" />
+    <path id="innerPath" d="M600,170 A430,430 0 1,1 599.9,170 Z" />
+  </defs>
+
+  <!-- outer rings -->
+  <circle cx="600" cy="600" r="500" class="navy" fill="#ffffff" stroke="#0b2b56" stroke-width="6" />
+  <circle cx="600" cy="600" r="470" fill="#ffffff" stroke="#0b2b56" stroke-width="14" />
+  <circle cx="600" cy="600" r="410" fill="#ffffff" stroke="#1e90ff" stroke-width="8" />
+
+  <!-- curved top text -->
+  <g>
+    <text dy="-18" textLength="820">
+      <textPath startOffset="50%" text-anchor="middle" href="#outerPath" class="seal-text">NOVATECH GALAXY (PTY) LTD</textPath>
+    </text>
+  </g>
+
+  <!-- curved bottom text -->
+  <g>
+    <text dy="38">
+      <textPath startOffset="50%" text-anchor="middle" href="#innerPath" class="seal-text">VERIFIED PARTNERSHIP</textPath>
+    </text>
+  </g>
+
+  <!-- inner circle background -->
+  <circle cx="600" cy="600" r="300" fill="#ffffff" stroke="#0b2b56" stroke-width="4" />
+
+  <!-- monogram NG -->
+  <text x="600" y="580" text-anchor="middle" class="monogram navy">NG</text>
+
+  <!-- orbit swoosh -->
+  <path d="M240 520 C 400 460, 800 420, 960 560 C 840 400, 520 420, 240 520 Z" fill="none" stroke="#1e90ff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <path d="M250 540 C 420 520, 780 480, 930 610" fill="none" stroke="#0b2b56" stroke-width="8" stroke-linecap="round" />
+
+  <!-- small stars/dots -->
+  <g transform="translate(600,740)">
+    <circle cx="-120" cy="-220" r="8" class="light" />
+    <circle cx="80" cy="-240" r="6" class="light" />
+    <polygon points="-200,-80 -190,-60 -170,-60 -186,-48 -180,-28 -200,-40 -220,-28 -214,-48 -230,-60 -210,-60" fill="#0b2b56" opacity="0.9" transform="translate(0,-140)"/>
+  </g>
+
+  <!-- tagline -->
+  <line x1="360" y1="760" x2="840" y2="760" stroke="#0b2b56" stroke-width="4" />
+  <text x="600" y="796" text-anchor="middle" class="tag">INNOVATE • CONNECT • ELEVATE</text>
+
+  <!-- decorative side stars -->
+  <g>
+    <polygon points="150,600 170,640 210,650 180,675 185,715 150,695 115,715 120,675 90,650 130,640" fill="#1e90ff" stroke="#0b2b56" stroke-width="6" transform="translate(300,-20)" />
+    <polygon points="150,600 170,640 210,650 180,675 185,715 150,695 115,715 120,675 90,650 130,640" fill="#1e90ff" stroke="#0b2b56" stroke-width="6" transform="translate(600,-20)" />
+  </g>
+
+</svg>
